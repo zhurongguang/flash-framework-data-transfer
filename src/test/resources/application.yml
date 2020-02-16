@@ -1,0 +1,17 @@
+datatransfer:
+  client-type: Simple
+  simple:
+    host: 127.0.0.1
+    subscribe: test\..*
+  #cluster:
+  #  zk-hosts: 12
+  #rocketmq:
+  #  group-name: xxx
+  #  name-server: xxxx
+  #  topic: xxx
+  #kafka:
+  #  group-id: xx
+  #  servers: xx
+  #  topic: xx
+  batch-size: 2048
+  retry-times: 2
